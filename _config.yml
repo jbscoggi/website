@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: JB Scoggins
+title: "James B. Scoggins"
+name: "James B. Scoggins"
 email: jbscoggi@gmail.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -10,7 +11,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: /website # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -20,7 +21,7 @@ github_username: jbscoggi # your GitHub user name
 twitter_username: jb_scoggins # your Twitter handle
 linkedin_username: james-b-scoggins # your LinkedIn user name
 scholar_userid: jbscoggi@gmail.com # your Google Scholar ID
-orcid_id: # your ORCID ID
+#orcid_id: # your ORCID ID
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
