@@ -12,7 +12,7 @@
 .year {
     border-top: 1px solid $light-gray;
     color: $light-gray;
-    margin: 0 -3em -2.5ex -2em;
+    margin: 0 -3em -2.5ex -1em;
     padding-top: 1ex;
     text-align: right;
 }
@@ -23,10 +23,13 @@
 
     li {
         margin: 10px 0;
+        padding-left: 0;
         position: relative;
 
         span { display: block; }
-        .title { font-weight: bolder; }
+        .title { 
+            font-weight: bolder;
+        }
         .author {
             a {
                 border-bottom: 1px dashed $theme-color;

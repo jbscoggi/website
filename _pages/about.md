@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>J.B.</strong> Scoggins
+title: <strong>James B.</strong> Scoggins
 description: Postdoctoral Researcher at the <a href="https://www.vki.ac.be">von Karman Institute</a>.
 
 profile:
@@ -12,7 +12,7 @@ profile:
     <p>1640 Rhode-Saint-Genèse</p>
     <p>Belgium</p>
 
-news: true
+news: false
 social: true
 ---
 

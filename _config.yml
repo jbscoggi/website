@@ -23,7 +23,7 @@ linkedin_username: james-b-scoggins # your LinkedIn user name
 scholar_userid: jbscoggi@gmail.com # your Google Scholar ID
 #orcid_id: # your ORCID ID
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Interested in my work? I'd love to hear from you! Please shoot me an email.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -88,7 +88,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Scoggins
 
   style: apa
   locale: en
