@@ -2,15 +2,15 @@
 layout: about
 permalink: /
 title: <strong>James B.</strong> Scoggins
-description: Postdoctoral Researcher at the <a href="https://www.vki.ac.be">von Karman Institute</a>.
+description: Postdoctoral Researcher at <a href="https://portail.polytechnique.edu/cmap/en">CMAP, Ecole Poytechnique</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Chaussée de Waterloo 72</p>
-    <p>1640 Rhode-Saint-Genèse</p>
-    <p>Belgium</p>
+    <p>Centre de Mathématiques Appliquées</p>
+    <p>Route de Saclay</p>
+    <p>91128 Palaiseau, France</p>
 
 news: false
 social: true
