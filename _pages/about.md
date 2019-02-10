@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>James B.</strong> Scoggins
-description: Postdoctoral Researcher at <a href="https://portail.polytechnique.edu/cmap/en">CMAP, Ecole Poytechnique</a>.
+description: Postdoctoral Researcher at <a href="https://portail.polytechnique.edu/cmap/en">CMAP, Ecole Polytechnique</a>.
 
 profile:
   align: right
