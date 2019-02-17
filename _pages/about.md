@@ -12,7 +12,7 @@ profile:
     <p>Route de Saclay</p>
     <p>91128 Palaiseau, France</p>
 
-news: false
+news: true
 social: true
 ---
 
