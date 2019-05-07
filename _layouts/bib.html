@@ -16,32 +16,6 @@
     <span class="title">
         {{entry.title}}
     </span>
-    <span class="author">
-      {% for author in entry.author_array %}
-        {% unless forloop.last %}
-          {% if author.last == site.scholar.last_name %}
-            <em>{{author.first}} {{author.last}}</em>,
-          {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
-            {% else %}
-              {{author.first}} {{author.last}},
-            {% endif %}
-          {% endif %}
-        {% else %}
-          and
-          {% if author.last == site.scholar.last_name %}
-            <em>{{author.first}} {{author.last}}</em>
-          {% else %}
-            {% if site.data.coauthors[author.last] %}
-              <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
-            {% else %}
-              {{author.first}} {{author.last}}
-            {% endif %}
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
-    </span>
 
     <span class="periodical">
     {% if entry.type == "article" %}
@@ -50,15 +24,41 @@
       {% else %}
         {{entry.journal}}
       {% endif %}
-       {{entry.volume}}{%if entry.issue %}({{entry.issue}}){% endif %}{%if entry.pages %}:{{entry.pages}}{% endif %}
+       {{entry.volume}}{%if entry.issue %}({{entry.issue}}){% endif %}{%if entry.pages %}:{{entry.pages}}{% endif %},
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
     {% if entry.year %}
-      {{entry.year}}
+      {{entry.year}}.
     {% endif %}
     </span>
   {% endif %}
+
+  <span class="author">
+    {% for author in entry.author_array %}
+      {% unless forloop.last %}
+        {% if author.last == site.scholar.last_name %}
+          <em>{{author.first}} {{author.last}}</em>,
+        {% else %}
+          {% if site.data.coauthors[author.last] %}
+            <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+          {% else %}
+            {{author.first}} {{author.last}},
+          {% endif %}
+        {% endif %}
+      {% else %}
+        {% if author.last == site.scholar.last_name %}
+          <em>{{author.first}} {{author.last}}</em>
+        {% else %}
+          {% if site.data.coauthors[author.last] %}
+            <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+          {% else %}
+            {{author.first}} {{author.last}}
+          {% endif %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  </span>
 
   <span class="links">
   {% if entry.abstract %}
