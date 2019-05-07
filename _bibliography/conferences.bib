@@ -1,85 +1,53 @@
 ---
 ---
 
-@article{Lachaud2017,
-  title   = {A generic local thermal equilibrium model for porous reactive materials submitted to high temperatures},
-  author = {J. Lachaud and J.B. Scoggins and T.E. Magin and M.G. Meyer and N.N. Mansour},
-  journal = {International Journal of Heat and Mass Transfer},
-  volume = {108},
-  pages = {1406-1417},
-  year = {2017},
-  month = {nov},
-  doi = {10.1016/j.ijheatmasstransfer.2016.11.067},
-  pdf = {Lachaud2017_IJHMT.pdf},
-  abstract = {Many engineering applications involve reacting porous materials submitted to high temperatures. This work presents a detailed but pragmatic heat and mass transfer model for porous materials containing several solid phases and a single gas phase. The detailed chemical interactions occurring between the solid phases and the gas phase are modeled at the pore scale assuming local thermal equilibrium. Homogenized models are obtained for solid pyrolysis, pyrolysis species injection in the gas phase, heterogeneous reactions between the solid phases and the gas phase, and homogeneous reactions in the gas phase. The chemistry models are integrated in a macroscopic model making use of volume-averaged governing equations for the conservation of solid mass, gas mass, species (finite-rate chemistry) or elements (equilibrium chemistry), momentum, and energy. The model has been implemented in the Porous Material Analysis Toolbox based on OpenFoam (PATO), distributed Open Source by NASA. Applications to two high-temperature engineering problems are presented. The first application concerns the design of heat-shields of space vehicles. The second one aims at improving the understanding of biomass pyrolysis for the production of biohydrocarbons.}
+\item \myname, A. Lani,  P. Rivi\`{e}re, A. Soufiani, T.~E. Magin. 3D Radiative Heat Transfer Calculations using Monte Carlo Ray Tracing and the Hybrid Statistical Narrow Band Model for Hypersonic Vehicles. AIAA Paper 2017-4536. {\em 47$^\textit{th}$ AIAA Thermophysics Conference}, Denver, CO, June 2017.
+\item \myname, P. Knisely, T.~E. Magin. Crossed contributions to electron and heavy-particle transport fluxes for magnetized plasmas in the continuum regime. {\em 30th International Symposium on Rarefied Gas Dynamics}, AIP Conference Proceedings 1786(130002), University of Victoria, Victoria BC, Canada. 10-15 July 2016. %\underline{Cited by 1}.
+\item \myname, T.~E. Magin, A.~A. Wray, N.~N. Mansour. Multi-group reductions of LTE air plasma radiative transfer in cylindrical geometries. AIAA Paper 2013-3142. {\em 44$^\textit{th}$ AIAA Thermophysics Conference}, San Diego, CA, June 2013.
+\item \myname, H.~A. Hassan. Pyrolysis mechanism of PICA. AIAA Paper 2010-4655. {\em 10$^\textit{th}$ AIAA/ASME Joint Thermophysics and Heat Transfer Conference}, Chicago, IL, June 2010. %\underline{Cited by 1}.
+
+@inproceedings{Scoggins2015a,
+  title = {Coupled {{Flow}}, {{Radiation}}, and {{Ablation Simulations}} of {{Atmospheric Entry Vehicles}} Using the {{Hybrid Statistical Narrow Band Model}}},
+  isbn = {978-1-62410-361-2},
+  language = {en},
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  author = {Scoggins, James B. and Soucasse, Laurent and Riviere, Philippe and Soufiani, Anouar and Magin, Thierry},
+  month = jun,
+  year = {2015}
 }
 
-@article{Scoggins2017,
-  title   = {Thermodynamic properties of carbon–phenolic gas mixtures},
-  author = {James B. Scoggins and Jason Rabinovitch and Benjamin Barros-Fernandez and Alexandre Martin and Jean Lachaud and Richard L. Jaffe and Nagi N. Mansour and Guillaume Blanquart and Thierry E. Magin},
-  journal = {Aerospace Science and Technology},
-  volume = {166},
-  pages = {177-192},
-  year = {2017},
-  month = {jul},
-  doi = {10.1016/j.ast.2017.02.025},
-  pdf = {Scoggins2017_AESCTE.pdf},
-  abstract = {Accurate thermodynamic properties for species found in carbon-phenolic gas mixtures are essential in predicting material response and heating of carbon-phenolic heat shields of planetary entry vehicles. A review of available thermodynamic data for species found in mixtures of carbon-phenolic pyrolysis and ablation gases and atmospheres rich with C, H, O, and N such as those of Earth, Mars, Titan, and Venus, is performed. Over 1200 unique chemical species are identified from four widely used thermodynamic databases and a systematic procedure is described for combining these data into a comprehensive model. The detailed dataset is then compared with the Chemical Equilibrium with Applications thermodynamic database developed by NASA in order to quantify the differences in equilibrium thermodynamic properties obtained with the two databases. In addition, a consistent reduction methodology using the mixture thermodynamic properties as an objective function is developed to generate reduced species sets for a variety of temperature, pressure, and elemental composition spaces. It is found that 32 and 23 species are required to model carbon-phenolic pyrolysis gases mixed with air and CO2, respectively, to maintain a maximum error in thermodynamic quantities below 10%.}
+@inproceedings{Scoggins2015,
+  address = {Lisbon, Portugal},
+  title = {An Adaptive Hybrid Statistical Narrow Band Model for Coupled Radiative Transfer in Atmospheric Entry Flows},
+  booktitle = {8th {{European Symposium}} on {{Aerothermodynamics}} of {{Space Vehicles}}},
+  author = {Scoggins, James B. and Soucasse, Laurent and Riviere, Philippe and Soufiani, Anouar and Magin, Thierry E.},
+  year = {March, 2-6, 2015}
 }
 
-@article{Soucasse2016,
-  title   = {Flow-radiation coupling for atmospheric entries using a Hybrid Statistical Narrow Band model},
-  author = {Laurent Soucasse and James B. Scoggins and Philippe Rivière and Thierry E. Magin and Anouar Soufiani},
-  journal = {Journal of Quantitative Spectroscopy and Radiative Transfer},
-  volume = {180},
-  pages = {55-69},
-  year = {2016},
-  month = {sep},
-  doi = {10.1016/j.jqsrt.2016.04.008},
-  pdf = {Soucasse_2016_JQSRT.pdf},
-  abstract = {In this study, a Hybrid Statistical Narrow Band (HSNB) model is implemented to make fast and accurate predictions of radiative transfer effects on hypersonic entry flows. The HSNB model combines a Statistical Narrow Band (SNB) model for optically thick molecular systems, a box model for optically thin molecular systems and continua, and a Line-By-Line (LBL) description of atomic radiation. Radiative transfer calculations are coupled to a 1D stagnation-line flow model under thermal and chemical nonequilibrium. Earth entry conditions corresponding to the FIRE 2 experiment, as well as Titan entry conditions corresponding to the Huygens probe, are considered in this work. Thermal nonequilibrium is described by a two temperature model, although non-Boltzmann distributions of electronic levels provided by a Quasi-Steady State model are also considered for radiative transfer. For all the studied configurations, radiative transfer effects on the flow, the plasma chemistry and the total heat flux at the wall are analyzed in detail. The HSNB model is shown to reproduce LBL results with an accuracy better than 5% and a speed up of the computational time around two orders of magnitude. Concerning molecular radiation, the HSNB model provides a significant improvement in accuracy compared to the Smeared-Rotational-Band model, especially for Titan entries dominated by optically thick CN radiation.}
+@inproceedings{Soucasse2014,
+  address = {St. Andrews, UK},
+  title = {Radiation Calculations along the Stagnation Line of Atmospheric Entry Flows Using a Hybrid Statistical Narrow Band Model},
+  author = {Soucasse, Laurent and Scoggins, James B. and Magin, Thierry and Rivi{\'e}re, Philippe and Soufiani, Anouar},
+  year = {November 24-28 2014}
 }
 
-@article{Helber2016,
-  title   = {Experimental investigation of ablation and pyrolysis processes of carbon-phenolic ablators in atmospheric entry plasmas},
-  author = {Bernd Helber and Alessandro Turchi and James B. Scoggins and Annick Hubin and Thierry E. Magin},
-  journal = {International Journal of Heat and Mass Transfer},
-  volume = {100},
-  pages = {810-824},
-  year = {2016},
-  month = {sep},
-  doi = {10.1016/j.ijheatmasstransfer.2016.04.072},
-  pdf = {Helber2016_IJHMT.pdf},
-  abstract = {We study the ablation and transient pyrolysis outgassing of the carbon-phenolic ablators AQ61 and Asterm in air and nitrogen plasmas. We investigate their resistance to high heating conditions, and characterize gas-surface interaction phenomena, including the interaction of the pyrolysis gases with the hot plasma flow. The experiments were carried out in the Plasmatron facility of the von Karman Institute for Fluid Dynamics. The aero-thermodynamic environment of atmospheric entry in the boundary layer of a test object was selected with surface temperatures between 1900 K and 2800 K, and test chamber pressures of 15 hPa, 100 hPa, and 200 hPa. Those conditions led to recession rates between 39 lm/s and 83 lm/s in air plasmas. Micrographs revealed oxidation of the char layer and carbon fibers. Carbon deposition in the form of soot was observed on samples tested in nitrogen, contrary to air ablation where charred resin was not found at the surface. We propose an approach to estimate the temporally resolved pyrolysis outgassing rate, based on the emission signature of pyrolysis products and the volume change of the sample. The temporal recession rate was obtained from high-speed camera imaging. This enabled evaluation of the surface recession as a function of the pyrolysis outgassing rate, which was then compared to numerical estimates predicted by thermochemical equilibrium tables. The thermochemical equilibrium model generally underpredicted experimental recession rates, particularly at low pressure (15 hPa). Stronger mechanical failure of the material was ruled out as experiments at the same test conditions in nitrogen plasmas did not show any significant recession. Micrographs did not indicate internal oxidation of the material, neither was spallation observed during the low pressure experiments.}
+@inproceedings{Scoggins2014,
+  title = {Development of {{Mutation}}++: {{Multicomponent Thermodynamic}} and {{Transport Properties}} for {{Ionized Plasmas}} Written in {{C}}++},
+  isbn = {978-1-62410-281-3},
+  shorttitle = {Development of {{Mutation}}++},
+  language = {en},
+  publisher = {{American Institute of Aeronautics and Astronautics}},
+  author = {Scoggins, James B. and Magin, Thierry E.},
+  month = jun,
+  year = {2014},
+  groups = {bibliography}
 }
 
-@article{Scoggins2015,
-  title   = {Gibbs function continuation for linearly constrained multiphase equilibria},
-  author = {James B. Scoggins and Thierry E. Magin},
-  journal = {Combustion and Flame},
-  volume = {162},
-  issue = {12},
-  pages = {4514-4522},
-  year = {2015},
-  month = {dec},
-  doi = {10.1016/j.combustflame.2015.08.027},
-  url = {http://dx.doi.org/10.1016/j.combustflame.2015.08.027},
-  pdf = {Scoggins_CNF_2015.pdf},
-  abstract = {The stable computation of linearly constrained, multiphase, chemical equilibrium compositions is an important topic for a wide range of industrial and academic applications. Numerous computational methods have been developed to solve such problems which are, in general, susceptible to failure under certain conditions due to numerical stiffness. In this work, we present a Gibbs function continuation method for linearly constrained multiphase equilibrium calculations. The method converts the nonlinear Element Potential Equations - derived from the minimization of the mixture Gibbs free energy using the Lagrange multiplier technique - into an initial value problem which can be stably integrated through the use of a property of linear least squares solutions. The stability and convergence properties of the proposed method are derived and it is shown that the single phase method arises as a special case of the multiphase algorithm when only one phase is considered. Two test cases are presented to clarify and demonstrate the accuracy and robustness of the method.}
+@inproceedings{Scoggins2011,
+  address = {Honolulu, HI},
+  title = {Development of a {{Reduced Kinetic Mechanism}} for {{PICA Pyrolysis Products}}},
+  author = {Scoggins, J. B. and Mansour, N. N. and Hassan, Hassan A.},
+  month = jun,
+  year = {2011},
+  note = {AIAA-2011-3126}
 }
-
-@article{Lachaud2015,
-  title   = {Detailed chemical equilibrium model for porous ablative materials},
-  author = {Jean Lachaud and Tom {van Eekelen} and James B. Scoggins and Thierry E. Magin and Nagi N. Mansour},
-  journal = {International Journal of Heat and Mass Transfer},
-  volume = {90},
-  pages = {1034-1045},
-  year = {2015},
-  month = {nov},
-  doi = {10.1016/j.ijheatmasstransfer.2015.05.106},
-  url = {http://dx.doi.org/10.1016/j.ijheatmasstransfer.2015.05.106},
-  pdf = {Lachaud2015_IJHMT.pdf},
-  abstract = {Ablative materials are used in thermal protection systems for atmospheric re-entry vehicle heat shields. A detailed chemical equilibrium heat and mass transport model for porous ablators is presented for the first time. The governing equations are volume-averaged forms of the conservation equations for gas density, gas elements, solid mass, gas momentum, and total energy. The element (gas) fluxes are coupled at the surface of the material with an inlet/outlet boundary condition, allowing modeling either atmospheric gases entering the porous material by forced convection or pyrolysis gases exiting the material. The model is implemented in the Porous material Analysis Toolbox based on OpenFOAM (PATO). The thermo- dynamics and chemistry library Mutation++ is used as a third party library to compute equilibrium compositions, gas properties, and solve the state-of-the-art boundary layer approximation to provide the ablation rate and the element mass fractions at the surface of the material. The model is applied to the detailed analysis of boundary layer and pyrolysis gas flows within a porous carbon/phenolic ablator characterized in a state-of-the-art arc-jet test. The selected configuration consists of an iso-flux ellipsoid-cylinder sample submitted to a 2.5 MW/m2 heat flux with a decreasing pressure gradient from the stagnation point to the cylinder’s side. During the first tenths of a second of the test, boundary layer gases percolate through the sample. Then, as the sample heats up, the internal pressure increases inside the sample due to pyrolysis–gas production. The resulting pressure gradient blocks the boundary layer gases and leads to a pyrolysis gas flow that separates into two streams: one going towards the upper surface, and one going towards the lower pressure side under the shoulder of the sample. We show that the temperature profile is modified when using the detailed mass transport model. The sample’s sub-shoulder zone is significantly cooled down while a temperature increase is observed in-depth. Implementing the model of this study in space agency codes will allow improving ground-test analyses and help provide more accurate material properties for design.}
-}
-
-
