@@ -19,18 +19,28 @@
 .bibliography {
     margin-bottom: 50px;
     margin-top: 20px;
-    list-style-type: none;
+    list-style-type: 1;
+    list-style-position: inside;
     padding-left: 0;
 
     li {
         margin: 10px 0;
-        // position: relative;
+
+        div { 
+            display: inline;
+        }
 
         span { display: block; }
+        
         .title { 
             font-weight: bold;
+            display: inline;
+        }
+        .periodical {
+            display: block;
         }
         .author {
+            display: inline;
             a {
                 // border-bottom: 1px dashed $theme-color;
                 &:hover {

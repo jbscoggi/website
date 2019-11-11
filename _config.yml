@@ -114,9 +114,21 @@ scholar:
 
   query: "@*"
 
+  bibliography_list_attributes:
+    reversed: "reversed"
+
 # -----------------------------------------------------------------------------
 # Other settings
 # -----------------------------------------------------------------------------
 jquery_version: "1.12.4"
 katex_version: "0.9.0"
 anchorjs_version: "3.2.2"
+
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      include_in_header: True
