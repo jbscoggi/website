@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upcoming short course on Solving PDEs with ML
+title: Upcoming Short Course on Solving PDEs with ML
 date: 2020-01-16 9:00:00-0100
 inline: false
 ---
