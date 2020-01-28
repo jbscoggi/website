@@ -7,7 +7,7 @@ event: "VKI Short Course"
 title: "Introduction to Solving PDEs with Machine Learning"
 ---
 
-I gave a short course on Solving PDEs with Machine Learning at [VKI](https://www.vki.ac.be/) on Jan. 27.  All the material for the short course can be found [on my git](https://github.com/jbscoggi/teaching/tree/master/ML4PDE).
+I gave a short course on Solving PDEs with Machine Learning at [VKI](https://www.vki.ac.be/) on Jan. 27.  All the material for the short course can be found [on my git](https://github.com/jbscoggi/teaching/blob/master/ML4PDE/README.md).
 
 <img width="100%" text-align="center" src="{{ site.baseurl }}/assets/img/vki_short_course_pde4ml.png" title="Introduction to Solving PDEs with Machine Learning"/>
 
