@@ -18,7 +18,7 @@
     </span>
 
     <span class="periodical">
-    {% if entry.type == "article" %}
+    {% if entry.type == "article" and entry.journal %}
       {% if entry.doi %}
         <a href="http://dx.doi.org/{{entry.doi}}"><em>{{entry.journal}}</em></a>
       {% else %}
@@ -28,7 +28,7 @@
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
-    {% if entry.year %}
+    {% if entry.year and entry.journal %}
       {{entry.year}}.
     {% endif %}
     </span>
